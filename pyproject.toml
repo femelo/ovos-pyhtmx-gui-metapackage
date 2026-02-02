@@ -1,0 +1,30 @@
+[project]
+name = "ovos-pyhtmx-metapackage"
+version = "0.0.1"
+description = "Metapackage for OVOS PyHTMX GUI components"
+authors = [
+    { name = "Flavio Melo", email = "flavio.melo@gmail.com" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "ovos-gui @ git+https://github.com/femelo/ovos-gui.git@add-pyhtmx-system-pages",
+    "ovos-audio @ git+https://github.com/femelo/ovos-audio.git@add-audio-duration",
+    "ovos-dinkum-listener @ git+https://github.com/femelo/ovos-dinkum-listener.git@add-audio-duration-to-master",
+    "ovos-skill-homescreen @ git+https://github.com/femelo/ovos-skill-homescreen.git@add-pyhtmx-gui-resources",
+    "ovos-ocp-audio-plugin @ git+https://github.com/femelo/ovos-ocp-audio-plugin.git@add-pyhtmx-resources",
+    "ovos-skill-date-time @ git+https://github.com/femelo/ovos-skill-date-time.git@add-pyhtmx-time-page",
+    "ovos-skill-weather @ git+https://github.com/femelo/ovos-skill-weather.git@add-units-to-weather-params",
+    "pyhtmx-gui-client @ git+https://github.com/femelo/pyhtmx-gui-client.git@extract-homescreen-resources",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["ovos_pyhtmx_metapackage*"]
+
+[tool.setuptools.package-data]
+"ovos_pyhtmx_metapackage" = ["*"]
