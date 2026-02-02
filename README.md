@@ -1,4 +1,4 @@
-# OVOS PyHTMX Metapackage
+# OVOS PyHTMX GUI Metapackage
 
 This project defines a metapackage that consolidates several OVOS components for setting up a development
 environment for the PyHTMX GUI client.

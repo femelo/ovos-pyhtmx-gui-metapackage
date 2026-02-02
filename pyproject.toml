@@ -1,5 +1,5 @@
 [project]
-name = "ovos-pyhtmx-metapackage"
+name = "ovos-pyhtmx-gui-metapackage"
 version = "0.0.1"
 description = "Metapackage for OVOS PyHTMX GUI components"
 authors = [
@@ -24,7 +24,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
-include = ["ovos_pyhtmx_metapackage*"]
+include = ["ovos_pyhtmx_gui_metapackage*"]
 
 [tool.setuptools.package-data]
-"ovos_pyhtmx_metapackage" = ["*"]
+"ovos_pyhtmx_gui_metapackage" = ["*"]
