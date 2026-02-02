@@ -3,7 +3,7 @@ name = "ovos-pyhtmx-gui-metapackage"
 version = "0.0.1"
 description = "Metapackage for OVOS PyHTMX GUI components"
 authors = [
-    { name = "Flavio Melo", email = "flavio.melo@gmail.com" },
+    { name = "Flavio De Melo", email = "flavio.eler@gmail.com" },
 ]
 license = { file = "LICENSE" }
 readme = "README.md"
