@@ -17,7 +17,7 @@ This will install the following packages from their respective GitHub branches:
 - `ovos-audio@add-audio-duration`
 - `ovos-dinkum-listener@add-audio-duration-to-master`
 - `ovos-skill-homescreen@add-pyhtmx-gui-resources`
-- `ovos-ocp-audio-plugin@add-pyhtmx-resources`
+- `ovos-plugin-common-play@add-pyhtmx-resources`
 - `ovos-skill-date-time@add-pyhtmx-time-page`
 - `ovos-skill-weather@add-units-to-weather-params`
-- `pyhtmx-gui-client@extract-homescreen-resources`
+- `ovos-pyhtmx-gui-client@extract-homescreen-resources`
