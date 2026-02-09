@@ -7,7 +7,7 @@ setup(
     install_requires=[
         "ovos-gui @ git+https://github.com/femelo/ovos-gui.git@add-pyhtmx-system-pages",
         "ovos-audio @ git+https://github.com/femelo/ovos-audio.git@add-audio-duration",
-        "ovos-dinkum-listener @ git+https://github.com/femelo/ovos-dinkum-listener.git@add-audio-duration-to-master",
+        "ovos-dinkum-listener @ git+https://github.com/femelo/ovos-dinkum-listener.git@add-audio-duration",
         "ovos-skill-homescreen @ git+https://github.com/femelo/ovos-skill-homescreen.git@add-pyhtmx-gui-resources",
         "ovos-plugin-common-play @ git+https://github.com/femelo/ovos-ocp-audio-plugin.git@add-pyhtmx-resources",
         "ovos-skill-date-time @ git+https://github.com/femelo/ovos-skill-date-time.git@add-pyhtmx-time-page",
