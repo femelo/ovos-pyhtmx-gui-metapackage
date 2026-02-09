@@ -15,7 +15,7 @@ This will install the following packages from their respective GitHub branches:
 
 - `ovos-gui@add-pyhtmx-system-pages`
 - `ovos-audio@add-audio-duration`
-- `ovos-dinkum-listener@add-audio-duration-to-master`
+- `ovos-dinkum-listener@add-audio-duration`
 - `ovos-skill-homescreen@add-pyhtmx-gui-resources`
 - `ovos-plugin-common-play@add-pyhtmx-resources`
 - `ovos-skill-date-time@add-pyhtmx-time-page`
