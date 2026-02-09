@@ -20,4 +20,4 @@ This will install the following packages from their respective GitHub branches:
 - `ovos-plugin-common-play@add-pyhtmx-resources`
 - `ovos-skill-date-time@add-pyhtmx-time-page`
 - `ovos-skill-weather@add-units-to-weather-params`
-- `ovos-pyhtmx-gui-client@extract-homescreen-resources`
+- `ovos-pyhtmx-gui-client@main`

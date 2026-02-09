@@ -12,7 +12,7 @@ setup(
         "ovos-plugin-common-play @ git+https://github.com/femelo/ovos-ocp-audio-plugin.git@add-pyhtmx-resources",
         "ovos-skill-date-time @ git+https://github.com/femelo/ovos-skill-date-time.git@add-pyhtmx-time-page",
         "ovos-skill-weather @ git+https://github.com/femelo/ovos-skill-weather.git@add-units-to-weather-params",
-        "ovos-pyhtmx-gui-client @ git+https://github.com/femelo/pyhtmx-gui-client.git@extract-homescreen-resources",
+        "ovos-pyhtmx-gui-client @ git+https://github.com/femelo/pyhtmx-gui-client.git@main",
     ],
     author="Flavio De Melo",
     author_email="flavio.eler@gmail.com",
